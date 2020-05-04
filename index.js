@@ -3,8 +3,8 @@ const fs = require('fs')
     , requestPromise = require('request-promise')
     , cheerio = require('cheerio');
 const dir = './tmp';
-const baseURL = 'https://link.springer.com';
-const URL = 'https://www.thebiomics.com/notes/springer-free-e-books-list.html';
+const baseURL = '<--YOUR-BASE-URL-->';
+const URL = '<--YOUR-LINK-LIST-URL-->';
 
 function sleep(ms) {
     return new Promise((resolve) => {
